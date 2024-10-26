@@ -1,0 +1,247 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+body {
+    background-color: #f5f5f5;
+    color: #333;
+    transition: background-color 0.3s, color 0.3s;
+}
+header {
+    text-align: center;
+    padding: 4rem;
+    background-color: #333;
+    color: rgb(255, 255, 255);
+}
+.header-image {
+    width: 150px;
+    height: 200px;
+    border-radius: 5%;
+     margin-right: 1rem;
+}
+header h1 {
+    font-size: 2.5rem;
+}
+
+header p {
+    font-size: 1.2rem;
+}
+
+nav a {
+    margin: 0 1rem;
+    color: rgb(225, 231, 141);
+    text-decoration: none;
+}
+
+.section {
+    padding: 2rem;
+    text-align: center;
+}
+
+.skills {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.skill {
+    width: 20%;
+}
+
+.skill-bar {
+    width: 100%;
+    background-color: #ddd;
+    height: 20px;
+    border-radius: 10px;
+}
+
+.progress {
+    height: 100%;
+    background-color: #4caf50;
+    border-radius: 10px;
+}
+
+.project {
+    margin: 1rem 0;
+}
+
+.project h3 {
+    font-size: 1.5rem;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+button {
+    padding: 0.5rem;
+    border: none;
+    cursor: pointer;
+    background-color: #4caf50;
+    color: white;
+    border-radius: 5px;
+}
+#certifications {
+    padding: 2rem;
+    text-align: center;
+}
+
+.certificates {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.certificate {
+    width: 400px;
+    text-align: center;
+}
+
+.certificate img {
+    width: 100%;
+    height: auto;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+}
+
+.certificate p {
+    margin-top: 0.5rem;
+    font-size: 0.9rem;
+    color: #555;
+}
+
+.certificate p b {
+    color: #333;
+    font-size: 1rem;
+}
+.theme-toggle {
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.contact-info {
+    margin-top: 0.5rem;
+    text-align: right;
+    color: rgb(225, 231, 141);
+    font-size: 0.9rem;
+}
+
+.contact-info p {
+    margin: 0.2rem 0;   
+}
+
+.contact-info a {
+    color: #4c7faf; 
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+body.dark .contact-info {
+    color: #f5f5f5;
+}
+#internship {
+    padding: 2rem;
+    text-align: center;
+}
+
+.internship-details {
+    text-align: left;
+    margin: 1rem auto;
+    max-width: 600px;
+    font-size: 0.95rem;
+    color: #555;
+}
+
+.internship-details p {
+    margin: 0.5rem 0;
+}
+
+.internship-details a {
+    color: #4c7faf;
+    text-decoration: none;
+}
+
+.internship-details a:hover {
+    text-decoration: underline;
+}
+.login-container {
+    width: 300px;
+    margin: 100px auto;
+    padding: 2rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.login-container h2 {
+    margin-bottom: 1.5rem;
+}
+
+.login-container label {
+    display: block;
+    text-align: left;
+    margin: 0.5rem 0 0.25rem;
+}
+
+.login-container input {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+}
+
+.login-container button {
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 4px;
+    background-color: #4caf50;
+    color: white;
+    cursor: pointer;
+}
+
+.login-container button:hover {
+    background-color: #45a049;
+}
+#education {
+    padding: 2rem;
+    text-align: center;
+}
+
+.education-entry {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem auto;
+    max-width: 600px;
+    border-bottom: 1px solid #ddd;
+    padding: 1rem 0;
+}
+
+.education-details {
+    text-align: left;
+    font-size: 1rem;
+    color: #333;
+}
+
+.education-year {
+    text-align: right;
+    font-size: 1rem;
+    color: #555;
+}
+
+.education-entry p {
+    margin: 0.2rem 0;
+}
