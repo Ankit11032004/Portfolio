@@ -11,7 +11,8 @@ body {
 }
 header {
     text-align: center;
-    padding: 4rem;
+    padding: 2rem 0;
+    margin-bottom: 2rem;
     background-color: #333;
     color: rgb(255, 255, 255);
 }
@@ -39,30 +40,6 @@ nav a {
     padding: 2rem;
     text-align: center;
 }
-
-.skills {
-    display: flex;
-    justify-content: center;
-    gap: 2rem;
-}
-
-.skill {
-    width: 20%;
-}
-
-.skill-bar {
-    width: 100%;
-    background-color: #ddd;
-    height: 20px;
-    border-radius: 10px;
-}
-
-.progress {
-    height: 100%;
-    background-color: #4caf50;
-    border-radius: 10px;
-}
-
 .project {
     margin: 1rem 0;
 }
@@ -245,3 +222,17 @@ body.dark .contact-info {
 .education-entry p {
     margin: 0.2rem 0;
 }
+.profile-img {
+    width: 130px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.nav-link {
+    font-weight: 500;
+    color: #495057;
+}
+.nav-link {
+            font-weight: 500;
+            color: #495057;
+ }
